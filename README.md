@@ -14,7 +14,7 @@ This repository only includes the MATLAB scripts used to:
 - normalize the corresponding bulk-velocity forcing signal;
 - post-process Nusselt-number time series;
 - compare DNS-based Nusselt-number data with the Gnielinski correlation;
-- post-process skin-friction time series.
+- post-process friction time series.
 
 The full DNS solver is not included in this repository. Only the MATLAB scripts developed for the thesis workflow are provided.
 
@@ -80,7 +80,7 @@ The script performs:
 * time-series reconstruction;
 * interpolation over a uniform time grid;
 * detection of the steady cyclic regime;
-* cycle-based averaging of the skin-friction coefficient;
+* cycle-based averaging of the wall-friction coefficient;
 * optional sign correction during rapid deceleration stages.
 
 ## Basic usage
@@ -109,7 +109,7 @@ To process Nusselt-number data, use:
 out = process_nusselt_timeseries(filename);
 ```
 
-To process skin-friction data, use:
+To process wall-friction data, use:
 
 ```matlab
 out = process_friction_timeseries(filename);
