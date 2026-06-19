@@ -150,6 +150,3 @@ Universidad de Málaga
 This repository is intended for academic and research purposes.
 
 If a `LICENSE` file is included in the repository, the use of this code is governed by the terms specified in that file.
-
-```
-```
