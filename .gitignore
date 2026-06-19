@@ -1,0 +1,32 @@
+# MATLAB temporary files
+*.asv
+*.mat
+*.fig
+
+# Generated profile files
+Profile_Data.txt
+Reynolds_Average.txt
+Resumen_Caso.txt
+
+# Generated data files and folders
+Nusselt
+friction
+Reynolds
+
+# Generated figures
+*.png
+*.jpg
+*.jpeg
+*.eps
+*.pdf
+
+# Large simulation/output files
+*.dat
+*.out
+*.log
+*.h5
+*.vtk
+
+# System files
+.DS_Store
+Thumbs.db
