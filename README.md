@@ -1,20 +1,20 @@
 # BACHELOR-S-THESIS-FVG-nsPipeFlow-Unsteady-Driving
 
-This repository contains the MATLAB scripts developed for the post-processing and generation of asymmetric Reynolds-number cycles used in the Bachelor's Thesis:
+This repository contains the MATLAB scripts developed for the generation and post-processing of asymmetric Reynolds-number cycles used in the Bachelor's Thesis:
 
 **Numerical study on the variation of heat transfer in a turbulent pipe flow with asymmetric flow-rate cycles featuring slow acceleration and rapid deceleration**
 
-The work focuses on turbulent pipe-flow simulations subjected to asymmetric flow-rate cycles, with particular attention to the analysis of heat-transfer response through the Nusselt number and the skin-friction coefficient.
+The work focuses on turbulent pipe-flow simulations subjected to asymmetric flow-rate cycles, with particular attention to the analysis of the heat-transfer response through the Nusselt number and the wall-friction coefficient.
 
 ## Repository scope
 
 This repository only includes the MATLAB scripts used to:
 
-- generate asymmetric Reynolds-number profiles;
-- normalize the corresponding bulk-velocity forcing signal;
-- post-process Nusselt-number time series;
-- compare DNS-based Nusselt-number data with the Gnielinski correlation;
-- post-process friction time series.
+* generate asymmetric Reynolds-number profiles;
+* normalize the corresponding bulk-velocity forcing signal;
+* post-process Nusselt-number time series;
+* compare DNS-based Nusselt-number data with the Gnielinski correlation;
+* post-process wall-friction time series.
 
 The full DNS solver is not included in this repository. Only the MATLAB scripts developed for the thesis workflow are provided.
 
@@ -32,7 +32,7 @@ matlab/
 │
 └── friction_postprocessing/
     └── process_friction_timeseries.m
-````
+```
 
 ## MATLAB scripts
 
@@ -61,7 +61,7 @@ These files are considered output files and are not intended to be version-contr
 
 ### Nusselt-number post-processing
 
-The folder `matlab/nusselt_postprocessing/` contains scripts for processing Nusselt-number timeseries obtained from DNS simulations.
+The folder `matlab/nusselt_postprocessing/` contains scripts for processing Nusselt-number time series obtained from DNS simulations.
 
 The scripts allow:
 
@@ -71,9 +71,9 @@ The scripts allow:
 * comparison against steady DNS reference values;
 * comparison against the Gnielinski correlation.
 
-### -friction post-processing
+### Wall-friction post-processing
 
-The folder `matlab/friction_postprocessing/` contains the script used to process the friction timeseries.
+The folder `matlab/friction_postprocessing/` contains the script used to process wall-friction time series.
 
 The script performs:
 
